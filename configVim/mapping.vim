@@ -1,5 +1,5 @@
-nnoremap <A-3> #N
-nnoremap <A-8> *N
+nnoremap # #N
+nnoremap * *N
 nnoremap <A-4> 20zh
 nnoremap <A-5> 20zl
 nnoremap <leader><TAB> :b zsh<TAB> <CR>
@@ -23,7 +23,7 @@ nnoremap <leader>te :tabe <C-R>=expand("%:p:h") . "/" <CR>
 nnoremap <leader>ve :vsplit <C-R>=expand("%:p:h") . "/" <CR>
 nnoremap <leader>se :split <C-R>=expand("%:p:h") . "/" <CR>
 nnoremap <A-e> :e <C-R>=expand("%:p:h") . "/" <CR>
-tmap <C-q> <C-\><C-n>
+tmap <ESC> <C-\><C-n>
 " nnoremap <leader>btl :tabnew <CR> <C-^>
 " nnoremap <leader>bvl :vs <CR> <C-^>
 " nnoremap <leader>bsl :sp <CR> <C-^>
@@ -33,8 +33,8 @@ nnoremap <leader>bvp :vs\|bprev <CR>
 nnoremap <leader>bvn :vs\|bnext <CR>
 nnoremap <leader>bsp :sp\|bprev <CR>
 nnoremap <leader>bsn :sp\|bnext <CR>
-nnoremap <A-1> :bprev <CR>
-nnoremap <A-2> :bnext <CR>
+nnoremap <A-2> :bprev <CR>
+nnoremap <A-3> :bnext <CR>
 nnoremap <leader>bd :bd <CR>
 nnoremap <leader>tc :tabclose <CR>
 nnoremap <leader>to :tabnew <CR>

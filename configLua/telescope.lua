@@ -1,3 +1,5 @@
+local actions = require('telescope.actions')
+
 require('telescope').setup{
   defaults = {
     vimgrep_arguments = {
@@ -8,6 +10,12 @@ require('telescope').setup{
       '--line-number',
       '--column',
       '--smart-case'
+    },
+       mappings = {
+         i = {
+           ["<esc>"] = actions.close,
+           ["<C-c>"] = false,
+         } 
     },
     prompt_prefix = "> ",
     selection_caret = "> ",
