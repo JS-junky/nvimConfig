@@ -1,6 +1,7 @@
 set scrolloff=8
-set foldmethod=syntax
 set foldlevel=99
+set foldmethod=expr
+set foldexpr=nvim_treesitter#foldexpr()
 set splitright
 set splitbelow
 syntax on

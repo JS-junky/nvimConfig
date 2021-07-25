@@ -3,7 +3,7 @@ nnoremap * *N
 nnoremap <A-4> 20zh
 nnoremap <A-5> 20zl
 nnoremap <leader><TAB> :b zsh<TAB> <CR>
-nnoremap <A-f> :CocCommand prettier.formatFile <CR>
+" nnoremap <A-f> :CocCommand prettier.formatFile <CR>
 nnoremap <leader><TAB> :sp <CR> <C-W>J <C-W>10- :b zsh<TAB><CR>
 " nnoremap <leader>sB :sp <CR> <C-W>J <C-W>10- :b zsh
 nnoremap <F12> :IndentGuidesToggle <CR>

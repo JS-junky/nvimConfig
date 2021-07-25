@@ -46,5 +46,7 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'tzachar/compe-tabnine', { 'do': './install.sh' }
+Plug 'jose-elias-alvarez/nvim-lsp-ts-utils'
+" Plug 'jose-elias-alvarez/null-ls.nvim'
 
 call plug#end()
