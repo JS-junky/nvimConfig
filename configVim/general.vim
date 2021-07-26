@@ -1,3 +1,4 @@
+set hidden
 set scrolloff=8
 set foldlevel=99
 set foldmethod=expr
