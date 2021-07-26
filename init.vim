@@ -20,3 +20,4 @@ luafile $HOME/.config/nvim/configLua/lsp-signature.lua
 " luafile $HOME/.config/nvim/configLua/typescirpt-language-server.lua
 luafile $HOME/.config/nvim/configLua/lualine.lua
 luafile $HOME/.config/nvim/configLua/lspsaga.lua
+luafile $HOME/.config/nvim/configLua/virtual-text-toggle.lua
