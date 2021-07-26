@@ -12,15 +12,9 @@ nnoremap <silent> <A-;> <cmd>lua vim.lsp.diagnostic.goto_next()<CR>
 nnoremap <silent> <A-'> <cmd>lua vim.lsp.diagnostic.goto_prev()<CR>
 nnoremap <silent> <A-r> <cmd>lua vim.lsp.buf.rename()<CR>
 
-" auto-format
-autocmd BufWritePre *.js lua vim.lsp.buf.formatting_sync(nil, 100)
-autocmd BufWritePre *.jsx lua vim.lsp.buf.formatting_sync(nil, 100)
-autocmd BufWritePre *.py lua vim.lsp.buf.formatting_sync(nil, 100)
-autocmd BufWritePre *.ts lua vim.lsp.buf.formatting_sync(nil, 100)
-autocmd BufWritePre *.json lua vim.lsp.buf.formatting_sync(nil, 100)
-autocmd BufWritePre *.html lua vim.lsp.buf.formatting_sync(nil, 100)
-autocmd BufWritePre *.css lua vim.lsp.buf.formatting_sync(nil, 100)
-autocmd BufWritePre *.sql lua vim.lsp.buf.formatting_sync(nil, 100)
+" Formatting
+autocmd BufWritePre * lua vim.lsp.buf.formatting_sync(nil, 100)
+nnoremap <A-f> :lua vim.lsp.buf.formatting_sync(nil, 100)<CR>
 
 lua << EOF
   local nvim_lsp = require("lspconfig")
