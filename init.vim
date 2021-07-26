@@ -16,7 +16,6 @@ source $HOME/.config/nvim/configVim/nerdtree.vim
 luafile $HOME/.config/nvim/configLua/treesitter.lua
 luafile $HOME/.config/nvim/configLua/nvim-compe.lua
 luafile $HOME/.config/nvim/configLua/telescope.lua
-luafile $HOME/.config/nvim/configLua/lsp-signature.lua
 " luafile $HOME/.config/nvim/configLua/typescirpt-language-server.lua
 luafile $HOME/.config/nvim/configLua/lualine.lua
 luafile $HOME/.config/nvim/configLua/lspsaga.lua
