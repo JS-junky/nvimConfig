@@ -9,8 +9,8 @@ source $HOME/.config/nvim/configVim/mapping.vim
 source $HOME/.config/nvim/configVim/closetag.vim
 source $HOME/.config/nvim/configVim/vim-indent-guides.vim
 source $HOME/.config/nvim/configVim/lsp-config.vim
-source $HOME/.config/nvim/configVim/nvim-tree.vim
 source $HOME/.config/nvim/configVim/nvim-compe.vim
+source $HOME/.config/nvim/configVim/nerdtree.vim
 " source $HOME/.config/nvim/configVim/coc.vim
 " luafile $HOME/.config/nvim/configLua/lsp-config.lua
 luafile $HOME/.config/nvim/configLua/treesitter.lua
