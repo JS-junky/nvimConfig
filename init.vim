@@ -18,5 +18,5 @@ luafile $HOME/.config/nvim/configLua/nvim-compe.lua
 luafile $HOME/.config/nvim/configLua/telescope.lua
 " luafile $HOME/.config/nvim/configLua/typescirpt-language-server.lua
 luafile $HOME/.config/nvim/configLua/lualine.lua
-" luafile $HOME/.config/nvim/configLua/lspsaga.lua
+luafile $HOME/.config/nvim/configLua/lspsaga.lua
 luafile $HOME/.config/nvim/configLua/virtual-text-toggle.lua
