@@ -1,3 +1,7 @@
+nnoremap <A-c> :cclose <CR>
+nnoremap <A-o> :copen <CR>
+nnoremap <A-i> :cnext <CR>
+nnoremap <A-u> :cprev <CR>
 nnoremap # #N
 nnoremap * *N
 nnoremap <A-4> 20zh

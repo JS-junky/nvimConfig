@@ -4,7 +4,7 @@ nnoremap <silent> gv :vs<CR><cmd>lua vim.lsp.buf.definition()<CR>
 nnoremap <silent> gs :sp<CR><cmd>lua vim.lsp.buf.definition()<CR>
 nnoremap <silent> gt :sp<CR><cmd>lua vim.lsp.buf.definition()<CR><C-W>T
 nnoremap <silent> gD <cmd>lua vim.lsp.buf.declaration()<CR>
-nnoremap <silent> gr <cmd>lua vim.lsp.buf.references()<CR>
+nnoremap <silent> gr <cmd>lua vim.lsp.buf.references()<CR> :cclose <CR>
 nnoremap <silent> gi <cmd>lua vim.lsp.buf.implementation()<CR>
 nnoremap <silent> K <cmd>lua vim.lsp.buf.hover()<CR>
 nnoremap <silent> <A-d> <cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>
