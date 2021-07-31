@@ -1,5 +1,5 @@
 nnoremap <A-c> :cclose <CR>
-nnoremap <A-o> :copen <CR>
+nnoremap <A-o> :copen <CR> <C-w>J
 nnoremap <A-i> :cnext <CR>
 nnoremap <A-u> :cprev <CR>
 nnoremap # #N
