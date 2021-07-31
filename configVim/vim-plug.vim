@@ -54,5 +54,6 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'scrooloose/nerdtree-project-plugin'
 Plug 'PhilRunninger/nerdtree-buffer-ops'
 Plug 'PhilRunninger/nerdtree-visual-selection'
+Plug 'WhoIsSethDaniel/toggle-lsp-diagnostics.nvim'
 
 call plug#end()
