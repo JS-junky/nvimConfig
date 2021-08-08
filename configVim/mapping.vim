@@ -1,3 +1,5 @@
+nnoremap <silent> <C-C> z= 1 <CR><CR>
+inoremap <silent> <C-C> <ESC> z= 1 <CR><CR>
 nnoremap <A-c> :cclose <CR>
 nnoremap <A-o> :copen <CR> <C-w>J
 nnoremap <A-i> :cnext <CR>
