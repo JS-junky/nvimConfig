@@ -23,3 +23,6 @@ luafile $HOME/.config/nvim/configLua/lspsaga.lua
 " luafile $HOME/.config/nvim/configLua/virtual-text-toggle.lua
 luafile $HOME/.config/nvim/configLua/references-qflist.lua
 luafile $HOME/.config/nvim/configLua/pyright-setup.lua
+luafile $HOME/.config/nvim/configLua/html-lsp.lua
+luafile $HOME/.config/nvim/configLua/css-lsp.lua
+luafile $HOME/.config/nvim/configLua/zeta_note.lua
