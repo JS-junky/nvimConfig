@@ -1,3 +1,4 @@
+nnoremap <A-r> yiw :%s/<C-r>0//gc<left><left><left>
 nnoremap <silent> <C-s> z= 1 <CR><CR>
 inoremap <silent> <C-s> <ESC> z= 1 <CR><CR>
 nnoremap <A-c> :cclose <CR>

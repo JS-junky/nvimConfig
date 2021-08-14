@@ -11,7 +11,7 @@ nnoremap <silent> K <cmd>lua vim.lsp.buf.hover()<CR>
 nnoremap <silent> <A-d> <cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>
 nnoremap <silent> <A-;> <cmd>lua vim.lsp.diagnostic.goto_next()<CR>
 nnoremap <silent> <A-,> <cmd>lua vim.lsp.diagnostic.goto_prev()<CR>
-nnoremap <silent> <A-r> <cmd>lua vim.lsp.buf.rename()<CR>
+" nnoremap <silent> <A-r> <cmd>lua vim.lsp.buf.rename()<CR>
 
 " Formatting
 autocmd BufWritePre * lua vim.lsp.buf.formatting_sync(nil, 100)
