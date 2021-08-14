@@ -18,6 +18,8 @@ endfunction
 " nmap <leader>tlu <Plug>(toggle-lsp-diag-underline)
 " nmap <leader>tls <Plug>(toggle-lsp-diag-signs)
 nmap <F9> :call LineDiagFunction() <CR> <Plug>(toggle-lsp-diag-vtext)
+nnoremap <F8> :call LineDiagFunction() <CR>
+
 " nmap <leader>tlp <Plug>(toggle-lsp-diag-update_in_insert)
 
 " nmap <leader>tld  <Plug>(toggle-lsp-diag)
