@@ -1,3 +1,13 @@
+nnoremap n nzzzv
+nnoremap N Nzzzv
+inoremap , ,<c-g>u
+inoremap . .<c-g>u
+inoremap ! !<c-g>u
+inoremap ? ?<c-g>u
+vnoremap <C-J> :m '>+1<CR>gv=gv
+vnoremap <C-K> :m '<-2<CR>gv=gv
+nnoremap <C-J> :m .+1<CR>==
+nnoremap <C-K> :m .-2<CR>==
 nnoremap <leader>ss :%s///gc<left><left><left><left>
 nnoremap <leader>sw yiw :%s/<C-r>0//gc<left><left><left>
 nnoremap <silent> <C-s> z= 1 <CR><CR>
