@@ -16,8 +16,8 @@ nnoremap <A-c> :cclose <CR>
 nnoremap <A-o> :copen <CR> <C-w>J
 nnoremap <A-i> :cnext <CR>
 nnoremap <A-u> :cprev <CR>
-nnoremap # #N
-nnoremap * *N
+nnoremap # #Nzzzv
+nnoremap * *Nzzzv
 nnoremap <A-4> 20zh
 nnoremap <A-5> 20zl
 nnoremap <leader><TAB> :b zsh<TAB> <CR>
