@@ -4,10 +4,10 @@ inoremap , ,<c-g>u
 inoremap . .<c-g>u
 inoremap ! !<c-g>u
 inoremap ? ?<c-g>u
-vnoremap <C-down> :m '>+1<CR>gv=gv
-vnoremap <C-up> :m '<-2<CR>gv=gv
-nnoremap <C-down> :m .+1<CR>==
-nnoremap <C-up> :m .-2<CR>==
+vnoremap <A-8> :m '>+1<CR>gv=gv
+vnoremap <A-7> :m '<-2<CR>gv=gv
+nnoremap <A-8> :m .+1<CR>==
+nnoremap <A-7> :m .-2<CR>==
 nnoremap <leader>ss :%s///gc<left><left><left><left>
 nnoremap <leader>sw yiw :%s/<C-r>0//gc<left><left><left>
 nnoremap <silent> <C-s> z= 1 <CR><CR>
