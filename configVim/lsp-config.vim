@@ -8,7 +8,7 @@ nnoremap <silent> gr <cmd>lua vim.lsp.buf.references()<CR>
 xnoremap <silent> gr :lua vim.lsp.buf.references()<CR>
 nnoremap <silent> gi <cmd>lua vim.lsp.buf.implementation()<CR>
 nnoremap <silent> K <cmd>lua vim.lsp.buf.hover()<CR>
-" autocmd CursorMoved * lua vim.lsp.diagnostic.show_line_diagnostics()
+autocmd CursorMoved * lua vim.lsp.diagnostic.show_line_diagnostics({focusable = false})
 nnoremap <silent> <A-;> <cmd>lua vim.lsp.diagnostic.goto_next()<CR>
 nnoremap <silent> <A-,> <cmd>lua vim.lsp.diagnostic.goto_prev()<CR>
 nnoremap <silent> <A-d> <cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>
@@ -23,16 +23,12 @@ let g:lineDiag = 1
 
 function! LineDiagToggle()
     if g:lineDiag
-      autocmd CursorMoved * lua vim.lsp.diagnostic.show_line_diagnostics()
-        let g:lineDiag = 0
-        nnoremap <silent> <A-;> <cmd>lua vim.lsp.diagnostic.goto_next({ enable_popup = false })<CR>
-        nnoremap <silent> <A-,> <cmd>lua vim.lsp.diagnostic.goto_prev({ enable_popup = false  })<CR>
-    else
       autocmd!
       lua for _, win in ipairs(vim.api.nvim_list_wins()) do local config = vim.api.nvim_win_get_config(win); if config.relative ~= "" then vim.api.nvim_win_close(win, false); print('Closing window', win) end end
+        let g:lineDiag = 0
+    else
+      autocmd CursorMoved * lua vim.lsp.diagnostic.show_line_diagnostics({focusable = false})
         let g:lineDiag = 1
-        nnoremap <silent> <A-;> <cmd>lua vim.lsp.diagnostic.goto_next({ enable_popup = true })<CR>
-        nnoremap <silent> <A-,> <cmd>lua vim.lsp.diagnostic.goto_prev({ enable_popup = true  })<CR>
     endif
 endfunction
 nnoremap <F8> :call LineDiagToggle() <CR>
