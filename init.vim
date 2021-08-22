@@ -26,3 +26,4 @@ luafile $HOME/.config/nvim/configLua/pyright-setup.lua
 luafile $HOME/.config/nvim/configLua/html-lsp.lua
 luafile $HOME/.config/nvim/configLua/css-lsp.lua
 luafile $HOME/.config/nvim/configLua/zeta_note.lua
+luafile $HOME/.config/nvim/configLua/formatter-config.lua
