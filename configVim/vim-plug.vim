@@ -13,7 +13,6 @@ Plug 'tomasiser/vim-code-dark'
 " Plug 'HerringtonDarkholme/yats.vim'
 " Plug 'rafi/awesome-vim-colorschemes'
 " Plug 'terryma/vim-multiple-cursors'
-Plug 'alvan/vim-closetag'
 " Plug 'Yggdroot/indentLine'
 Plug 'tpope/vim-surround'
 " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -58,5 +57,8 @@ Plug 'WhoIsSethDaniel/toggle-lsp-diagnostics.nvim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'puremourning/vimspector'
 Plug 'mhartington/formatter.nvim'
+Plug 'alvan/vim-closetag'
+Plug 'KabbAmine/vCoolor.vim'
+" Plug 'ap/vim-css-color'
 
 call plug#end()

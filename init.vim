@@ -12,6 +12,7 @@ source $HOME/.config/nvim/configVim/lsp-config.vim
 source $HOME/.config/nvim/configVim/nvim-compe.vim
 source $HOME/.config/nvim/configVim/nerdtree.vim
 source $HOME/.config/nvim/configVim/toggle-lsp-diagnostics.vim
+source $HOME/.config/nvim/configVim/vcooler.vim
 " source $HOME/.config/nvim/configVim/coc.vim
 " luafile $HOME/.config/nvim/configLua/lsp-config.lua
 luafile $HOME/.config/nvim/configLua/treesitter.lua
