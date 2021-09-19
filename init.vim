@@ -28,3 +28,5 @@ luafile $HOME/.config/nvim/configLua/html-lsp.lua
 luafile $HOME/.config/nvim/configLua/css-lsp.lua
 luafile $HOME/.config/nvim/configLua/zeta_note.lua
 luafile $HOME/.config/nvim/configLua/formatter-config.lua
+luafile $HOME/.config/nvim/configLua/kotlin-setup.lua
+luafile $HOME/.config/nvim/configLua/vuels-setup.lua
