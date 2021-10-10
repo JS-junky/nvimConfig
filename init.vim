@@ -30,4 +30,6 @@ luafile $HOME/.config/nvim/configLua/zeta_note.lua
 luafile $HOME/.config/nvim/configLua/formatter-config.lua
 luafile $HOME/.config/nvim/configLua/kotlin-setup.lua
 luafile $HOME/.config/nvim/configLua/vuels-setup.lua
+" luafile $HOME/.config/nvim/configLua/volar-setup.lua
 luafile $HOME/.config/nvim/configLua/tailwind-config.lua
+luafile $HOME/.config/nvim/configLua/nvim-lsp-ts-utils.lua

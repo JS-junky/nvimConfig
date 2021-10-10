@@ -19,3 +19,4 @@ set clipboard=unnamedplus
 set number
 set expandtab ts=2 sw=2 ai
 highlight LspDiagnosticsDefaultHint guifg=yellow
+set wildignore=*/node_modules/*
