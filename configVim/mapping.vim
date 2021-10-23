@@ -8,6 +8,7 @@ vnoremap <A-8> :m '>+1<CR>gv=gv
 vnoremap <A-7> :m '<-2<CR>gv=gv
 nnoremap <A-8> :m .+1<CR>==
 nnoremap <A-7> :m .-2<CR>==
+vnoremap <leader>sv y :%s/<C-r>0//gc<left><left><left>
 nnoremap <leader>ss :%s///gc<left><left><left><left>
 nnoremap <leader>sw yiw :%s/<C-r>0//gc<left><left><left>
 nnoremap <silent> <C-s> z= 1 <CR><CR>
