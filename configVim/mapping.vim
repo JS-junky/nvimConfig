@@ -17,6 +17,8 @@ nnoremap <A-c> :cclose <CR>
 nnoremap <A-o> :copen <CR> <C-w>J
 nnoremap <A-i> :cnext <CR>
 nnoremap <A-u> :cprev <CR>
+vnoremap # y?<C-r>0<CR> nzzzv
+vnoremap * y/<C-r>0<CR> nzzzv
 nnoremap # #Nzzzv
 nnoremap * *Nzzzv
 nnoremap <A-4> 20zh
