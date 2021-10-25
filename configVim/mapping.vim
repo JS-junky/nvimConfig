@@ -1,3 +1,4 @@
+nnoremap <leader>aa ggVG
 nnoremap n nzzzv
 nnoremap N Nzzzv
 inoremap , ,<c-g>u
