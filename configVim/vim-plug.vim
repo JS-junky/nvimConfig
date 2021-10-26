@@ -1,6 +1,6 @@
 call plug#begin('~/.config/nvim/plugged')
 
-" Plug 'neoclide/coc.nvim'
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs'
 " Plug 'pangloss/vim-javascript'
 " Plug 'dense-analysis/ale'
@@ -43,17 +43,17 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 " Plug 'ray-x/lsp_signature.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
-" Plug 'kyazdani42/nvim-tree.lua'
+Plug 'kyazdani42/nvim-tree.lua'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'tzachar/compe-tabnine', { 'do': './install.sh' }
 Plug 'jose-elias-alvarez/nvim-lsp-ts-utils'
 " Plug 'jose-elias-alvarez/null-ls.nvim'
-Plug 'preservim/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'scrooloose/nerdtree-project-plugin'
-Plug 'PhilRunninger/nerdtree-buffer-ops'
-Plug 'PhilRunninger/nerdtree-visual-selection'
+" Plug 'preservim/nerdtree'
+" Plug 'Xuyuanp/nerdtree-git-plugin'
+" Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+" Plug 'scrooloose/nerdtree-project-plugin'
+" Plug 'PhilRunninger/nerdtree-buffer-ops'
+" Plug 'PhilRunninger/nerdtree-visual-selection'
 Plug 'WhoIsSethDaniel/toggle-lsp-diagnostics.nvim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'puremourning/vimspector'

@@ -10,10 +10,12 @@ source $HOME/.config/nvim/configVim/closetag.vim
 source $HOME/.config/nvim/configVim/vim-indent-guides.vim
 source $HOME/.config/nvim/configVim/lsp-config.vim
 source $HOME/.config/nvim/configVim/nvim-compe.vim
-source $HOME/.config/nvim/configVim/nerdtree.vim
+" source $HOME/.config/nvim/configVim/nerdtree.vim
 source $HOME/.config/nvim/configVim/toggle-lsp-diagnostics.vim
 source $HOME/.config/nvim/configVim/vcooler.vim
 " source $HOME/.config/nvim/configVim/coc.vim
+source $HOME/.config/nvim/configVim/nvim-tree.vim
+luafile $HOME/.config/nvim/configLua/nvim-tree.lua
 " luafile $HOME/.config/nvim/configLua/lsp-config.lua
 luafile $HOME/.config/nvim/configLua/treesitter.lua
 luafile $HOME/.config/nvim/configLua/nvim-compe.lua
