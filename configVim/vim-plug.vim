@@ -63,5 +63,6 @@ Plug 'KabbAmine/vCoolor.vim'
 " Plug 'ap/vim-css-color'
 " Plug 'suy/vim-context-commentstring'
 Plug 'JoosepAlviste/nvim-ts-context-commentstring'
+Plug 'udalov/kotlin-vim'
 
 call plug#end()
