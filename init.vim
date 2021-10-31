@@ -15,6 +15,7 @@ source $HOME/.config/nvim/configVim/toggle-lsp-diagnostics.vim
 source $HOME/.config/nvim/configVim/vcooler.vim
 " source $HOME/.config/nvim/configVim/coc.vim
 source $HOME/.config/nvim/configVim/nvim-tree.vim
+luafile $HOME/.config/nvim/configLua/jsonls.lua
 luafile $HOME/.config/nvim/configLua/nvim-tree.lua
 " luafile $HOME/.config/nvim/configLua/lsp-config.lua
 luafile $HOME/.config/nvim/configLua/treesitter.lua
