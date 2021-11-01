@@ -9,7 +9,7 @@ source $HOME/.config/nvim/configVim/mapping.vim
 source $HOME/.config/nvim/configVim/closetag.vim
 source $HOME/.config/nvim/configVim/vim-indent-guides.vim
 source $HOME/.config/nvim/configVim/lsp-config.vim
-source $HOME/.config/nvim/configVim/nvim-compe.vim
+" source $HOME/.config/nvim/configVim/nvim-compe.vim
 " source $HOME/.config/nvim/configVim/nerdtree.vim
 source $HOME/.config/nvim/configVim/toggle-lsp-diagnostics.vim
 source $HOME/.config/nvim/configVim/vcooler.vim
@@ -19,7 +19,7 @@ luafile $HOME/.config/nvim/configLua/jsonls.lua
 luafile $HOME/.config/nvim/configLua/nvim-tree.lua
 " luafile $HOME/.config/nvim/configLua/lsp-config.lua
 luafile $HOME/.config/nvim/configLua/treesitter.lua
-luafile $HOME/.config/nvim/configLua/nvim-compe.lua
+" luafile $HOME/.config/nvim/configLua/nvim-compe.lua
 luafile $HOME/.config/nvim/configLua/telescope.lua
 " luafile $HOME/.config/nvim/configLua/typescirpt-language-server.lua
 luafile $HOME/.config/nvim/configLua/lualine.lua
@@ -36,3 +36,4 @@ luafile $HOME/.config/nvim/configLua/vuels-setup.lua
 " luafile $HOME/.config/nvim/configLua/volar-setup.lua
 luafile $HOME/.config/nvim/configLua/tailwind-config.lua
 luafile $HOME/.config/nvim/configLua/nvim-lsp-ts-utils.lua
+luafile $HOME/.config/nvim/configLua/cmp.lua
