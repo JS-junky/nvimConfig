@@ -30,12 +30,32 @@ require('formatter').setup({
             stdin = true
           }
         end
+    },
+    react = {
+        -- prettier
+       function()
+          return {
+            exe = "prettier",
+            args = {"--stdin-filepath", vim.api.nvim_buf_get_name(0), '--single-quote'},
+            stdin = true
+          }
+        end
+    },
+    typescriptreact = {
+        -- prettier
+       function()
+          return {
+            exe = "prettier",
+            args = {"--stdin-filepath", vim.api.nvim_buf_get_name(0), '--single-quote'},
+            stdin = true
+          }
+        end
     }
   }
 })
 vim.api.nvim_exec([[
 augroup FormatAutogroup
   autocmd!
-  autocmd BufWritePost *.js,*.ts,*.vue FormatWrite
+  autocmd BufWritePost *.js,*.ts,*.vue,*.tsx,*.jsx FormatWrite
 augroup END
 ]], true)
