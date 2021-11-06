@@ -72,7 +72,7 @@ require'nvim-tree'.setup {
     }
   },
   filters = {
-    dotfiles = false,
+    dotfiles = true,
     custom = { 'node_modules' }
   }
 }
