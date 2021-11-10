@@ -37,3 +37,4 @@ luafile $HOME/.config/nvim/configLua/vuels-setup.lua
 luafile $HOME/.config/nvim/configLua/tailwind-config.lua
 luafile $HOME/.config/nvim/configLua/nvim-lsp-ts-utils.lua
 luafile $HOME/.config/nvim/configLua/cmp.lua
+luafile $HOME/.config/nvim/configLua/clangd.lua
