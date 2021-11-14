@@ -71,5 +71,6 @@ Plug 'KabbAmine/vCoolor.vim'
 Plug 'JoosepAlviste/nvim-ts-context-commentstring'
 Plug 'udalov/kotlin-vim'
 Plug 'onsails/lspkind-nvim'
+Plug 'AndrewRadev/tagalong.vim'
 
 call plug#end()
