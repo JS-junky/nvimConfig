@@ -63,7 +63,7 @@ Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug 'WhoIsSethDaniel/toggle-lsp-diagnostics.nvim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'puremourning/vimspector'
-Plug 'mhartington/formatter.nvim'
+" Plug 'mhartington/formatter.nvim'
 Plug 'alvan/vim-closetag'
 Plug 'KabbAmine/vCoolor.vim'
 " Plug 'ap/vim-css-color'
