@@ -32,11 +32,11 @@ nvim_lsp.tsserver.setup {
             import_all_select_source = false,
 
             -- eslint
-            -- eslint_enable_code_actions = true,
-            -- eslint_enable_disable_comments = true,
-            -- eslint_bin = "eslint",
-            -- eslint_enable_diagnostics = false,
-            -- eslint_opts = {},
+            eslint_enable_code_actions = true,
+            eslint_enable_disable_comments = true,
+            eslint_bin = "eslint",
+            eslint_enable_diagnostics = true,
+            eslint_opts = {},
 
             -- formatting
             -- enable_formatting = false,

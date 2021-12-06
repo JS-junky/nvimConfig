@@ -21,7 +21,7 @@ luafile $HOME/.config/nvim/configLua/nvim-tree.lua
 luafile $HOME/.config/nvim/configLua/treesitter.lua
 " luafile $HOME/.config/nvim/configLua/nvim-compe.lua
 luafile $HOME/.config/nvim/configLua/telescope.lua
-" luafile $HOME/.config/nvim/configLua/typescirpt-language-server.lua
+luafile $HOME/.config/nvim/configLua/typescirpt-language-server.lua
 luafile $HOME/.config/nvim/configLua/lualine.lua
 luafile $HOME/.config/nvim/configLua/lspsaga.lua
 " luafile $HOME/.config/nvim/configLua/virtual-text-toggle.lua
@@ -30,11 +30,10 @@ luafile $HOME/.config/nvim/configLua/pyright-setup.lua
 luafile $HOME/.config/nvim/configLua/html-lsp.lua
 luafile $HOME/.config/nvim/configLua/css-lsp.lua
 luafile $HOME/.config/nvim/configLua/zeta_note.lua
-luafile $HOME/.config/nvim/configLua/formatter-config.lua
 luafile $HOME/.config/nvim/configLua/kotlin-setup.lua
 luafile $HOME/.config/nvim/configLua/vuels-setup.lua
 " luafile $HOME/.config/nvim/configLua/volar-setup.lua
 luafile $HOME/.config/nvim/configLua/tailwind-config.lua
-luafile $HOME/.config/nvim/configLua/nvim-lsp-ts-utils.lua
+" luafile $HOME/.config/nvim/configLua/nvim-lsp-ts-utils.lua
 luafile $HOME/.config/nvim/configLua/cmp.lua
 luafile $HOME/.config/nvim/configLua/clangd.lua
