@@ -8,7 +8,6 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'hoob3rt/lualine.nvim'
 Plug 'ryanoasis/vim-devicons'
 " Plug 'ryanoasis/nerd-fonts'
-Plug 'prettier/vim-prettier'
 Plug 'tpope/vim-commentary'
 Plug 'tomasiser/vim-code-dark'
 " Plug 'HerringtonDarkholme/yats.vim'
@@ -60,7 +59,7 @@ Plug 'tzachar/compe-tabnine', { 'do': './install.sh' }
 " Plug 'scrooloose/nerdtree-project-plugin'
 " Plug 'PhilRunninger/nerdtree-buffer-ops'
 " Plug 'PhilRunninger/nerdtree-visual-selection'
-Plug 'WhoIsSethDaniel/toggle-lsp-diagnostics.nvim'
+" Plug 'WhoIsSethDaniel/toggle-lsp-diagnostics.nvim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'puremourning/vimspector'
 " Plug 'mhartington/formatter.nvim'
@@ -72,5 +71,6 @@ Plug 'JoosepAlviste/nvim-ts-context-commentstring'
 Plug 'udalov/kotlin-vim'
 Plug 'onsails/lspkind-nvim'
 Plug 'AndrewRadev/tagalong.vim'
+Plug 'sbdchd/neoformat'
 
 call plug#end()
