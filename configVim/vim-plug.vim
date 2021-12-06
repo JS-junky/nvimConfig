@@ -8,7 +8,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'hoob3rt/lualine.nvim'
 Plug 'ryanoasis/vim-devicons'
 " Plug 'ryanoasis/nerd-fonts'
-" Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+Plug 'prettier/vim-prettier'
 Plug 'tpope/vim-commentary'
 Plug 'tomasiser/vim-code-dark'
 " Plug 'HerringtonDarkholme/yats.vim'
