@@ -1,3 +1,4 @@
+nnoremap <leader>cl :vimgrep /console\.log/g **/*.tsx **/*.jsx **/*.js **/*.ts <CR>
 nnoremap <leader>aa ggVG
 nnoremap n nzzzv
 nnoremap N Nzzzv

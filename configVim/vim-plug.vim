@@ -71,5 +71,6 @@ Plug 'udalov/kotlin-vim'
 Plug 'onsails/lspkind-nvim'
 Plug 'AndrewRadev/tagalong.vim'
 Plug 'sbdchd/neoformat'
+" Plug 'yardnsm/vim-import-cost', { 'do': 'npm install --production' }
 
 call plug#end()
