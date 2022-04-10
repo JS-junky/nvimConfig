@@ -19,3 +19,5 @@ require'nvim-treesitter.configs'.setup {
     enable = true
   }
 }
+
+vim.api.nvim_set_keymap("n", "<leader>bth", ":TSBufToggle highlight<CR>", { noremap = true })
