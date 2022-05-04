@@ -72,5 +72,7 @@ Plug 'onsails/lspkind-nvim'
 Plug 'AndrewRadev/tagalong.vim'
 Plug 'sbdchd/neoformat'
 " Plug 'yardnsm/vim-import-cost', { 'do': 'npm install --production' }
+" Plug 'mfussenegger/nvim-jdtls'
+Plug 'williamboman/nvim-lsp-installer'
 
 call plug#end()
