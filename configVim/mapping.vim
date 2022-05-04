@@ -1,3 +1,7 @@
+"......TEMP
+nnoremap <Space>e :NvimTreeToggle<CR>
+"......
+
 nnoremap <leader>cl :vimgrep /console\.log/g **/*.tsx **/*.jsx **/*.js **/*.ts <CR>
 nnoremap <leader>aa ggVG
 nnoremap n nzzzv
@@ -99,11 +103,17 @@ endfunction
 nmap <C-l> :execute TabRight() <CR>
 nmap <C-h> :execute TabLeft() <CR>
 
+"......TEMP
 nnoremap <C-m> :MaximizerToggle! <CR>
+"......
 
+"......TEMP
 nnoremap <F10> :RainbowLevelsToggle <CR>
+"......
 
+"......TEMP
 nnoremap <leader>ff <cmd>lua require('telescope.builtin').find_files()<cr>
 nnoremap <leader>fr <cmd>lua require('telescope.builtin').live_grep()<cr>
 nnoremap <leader>fb <cmd>lua require('telescope.builtin').buffers()<cr>
 nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>
+"......
