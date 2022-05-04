@@ -8,10 +8,10 @@ nnoremap <silent> gr <cmd>lua vim.lsp.buf.references()<CR>
 xnoremap <silent> gr :lua vim.lsp.buf.references()<CR>
 nnoremap <silent> gi <cmd>lua vim.lsp.buf.implementation()<CR>
 nnoremap <silent> K <cmd>lua vim.lsp.buf.hover()<CR>
-nnoremap <silent> <A-;> <cmd>lua vim.lsp.diagnostic.goto_next({popup_opts = {focusable = false} })<CR>
-nnoremap <silent> <A-,> <cmd>lua vim.lsp.diagnostic.goto_prev({popup_opts = {focusable = false} })<CR>
-nnoremap <silent> <A-d> <cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>
-nnoremap <silent> <A-r> <cmd>lua vim.lsp.buf.rename()<CR>
+nnoremap <silent> <A-;> <cmd>lua vim.diagnostic.goto_next({popup_opts = {focusable = false} })<CR>
+nnoremap <silent> <A-,> <cmd>lua vim.diagnostic.goto_prev({popup_opts = {focusable = false} })<CR>
+nnoremap <silent> <A-d> <cmd>lua vim.diagnostic.show_line_diagnostics()<CR>
+nnoremap <silent> <A-r> <cmd>lua vim.buf.rename()<CR>
 
 " Formatting
 autocmd BufWritePre * lua vim.lsp.buf.formatting_sync(nil, 100)
