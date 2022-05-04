@@ -15,7 +15,7 @@ set fileencoding=utf-8
 set rnu
 set mouse=a
 set termbidi
-set clipboard=unnamedplus
+set clipboard+=unnamedplus
 set number
 set expandtab ts=2 sw=2 ai
 highlight LspDiagnosticsDefaultHint guifg=yellow
