@@ -26,7 +26,9 @@ require("nvim-lsp-installer").setup({
 })
 
 -- -----------------------SUMNEKO_LUA -----------------------------
-require 'lspconfig'.sumneko_lua.setup {}
+require 'lspconfig'.sumneko_lua.setup {
+  globals = { 'vim' }
+}
 -- -----------------------SUMNEKO_LUA -----------------------------
 
 -- -----------------------TSSERVER-----------------------------
