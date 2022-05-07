@@ -26,10 +26,7 @@ cmp.setup({
     ['<C-f>'] = cmp.mapping.scroll_docs(4),
     ['<C-Space>'] = cmp.mapping(cmp.mapping.complete(), { 'i', 's' }),
     ['<C-e>'] = cmp.mapping.close(),
-    ['<CR>'] = cmp.mapping(cmp.mapping.confirm({
-      behavior = cmp.ConfirmBehavior.Replace,
-      select = true,
-    }, { 'i', 's' }))
+    ['<CR>'] = cmp.mapping(cmp.mapping.confirm({ select = true }, { 'i', 's' }))
   },
   sources = cmp.config.sources({
     { name = 'nvim_lsp' },
