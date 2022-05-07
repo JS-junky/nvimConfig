@@ -7,7 +7,7 @@ require("nvim-lsp-installer").setup({
     "jsonls",
     "clangd",
     "sumneko_lua",
-    "hls",
+    -- "hls",
     "bashls",
     "intelephense",
     "vimls",
