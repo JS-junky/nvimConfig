@@ -1,5 +1,6 @@
 "......TEMP
 nnoremap <Space>e :NvimTreeToggle<CR> :set rnu<CR>
+nnoremap <Space>f :NvimTreeFindFileToggle<CR> :set rnu<CR>
 "......
 
 nnoremap <leader>cl :vimgrep /console\.log/g **/*.tsx **/*.jsx **/*.js **/*.ts <CR>
