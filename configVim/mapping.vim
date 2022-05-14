@@ -1,5 +1,6 @@
 "......TEMP
-nnoremap <Space>e :NvimTreeToggle<CR>
+nnoremap <Space>e :NvimTreeToggle<CR> :set rnu<CR>
+nnoremap <Space>f :NvimTreeFindFileToggle<CR> :set rnu<CR>
 "......
 
 nnoremap <leader>cl :vimgrep /console\.log/g **/*.tsx **/*.jsx **/*.js **/*.ts <CR>
@@ -104,7 +105,7 @@ nmap <C-l> :execute TabRight() <CR>
 nmap <C-h> :execute TabLeft() <CR>
 
 "......TEMP
-nnoremap <C-m> :MaximizerToggle! <CR>
+nnoremap <CR> :MaximizerToggle! <CR>
 "......
 
 "......TEMP
