@@ -105,7 +105,7 @@ nmap <C-l> :execute TabRight() <CR>
 nmap <C-h> :execute TabLeft() <CR>
 
 "......TEMP
-nnoremap <CR> :MaximizerToggle! <CR>
+nnoremap <A-m> :MaximizerToggle! <CR>
 "......
 
 "......TEMP
