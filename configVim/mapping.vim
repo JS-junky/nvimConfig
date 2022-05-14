@@ -105,7 +105,7 @@ nmap <C-l> :execute TabRight() <CR>
 nmap <C-h> :execute TabLeft() <CR>
 
 "......TEMP
-nnoremap <A-m> :MaximizerToggle! <CR>
+  let g:maximizer_default_mapping_key = '<A-m>'
 "......
 
 "......TEMP
