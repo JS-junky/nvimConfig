@@ -42,5 +42,6 @@ Plug 'sbdchd/neoformat'
 Plug 'williamboman/nvim-lsp-installer'
 Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'kdheepak/tabline.nvim'
+Plug 'folke/tokyonight.nvim'
 
 call plug#end()
