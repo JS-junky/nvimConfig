@@ -7,7 +7,7 @@ source $HOME/.config/nvim/configVim/general.vim
 source $HOME/.config/nvim/configVim/mapping.vim
 source $HOME/.config/nvim/configVim/neoformat.vim
 source $HOME/.config/nvim/configVim/closetag.vim
-source $HOME/.config/nvim/configVim/vim-indent-guides.vim
+" source $HOME/.config/nvim/configVim/vim-indent-guides.vim
 source $HOME/.config/nvim/configVim/lsp-config.vim
 source $HOME/.config/nvim/configVim/vcooler.vim
 " source $HOME/.config/nvim/configVim/coc.vim
