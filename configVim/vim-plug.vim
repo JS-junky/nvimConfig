@@ -41,6 +41,6 @@ Plug 'AndrewRadev/tagalong.vim'
 Plug 'sbdchd/neoformat'
 Plug 'williamboman/nvim-lsp-installer'
 Plug 'lukas-reineke/indent-blankline.nvim'
-Plug 'romgrk/barbar.nvim'
+Plug 'kdheepak/tabline.nvim'
 
 call plug#end()
