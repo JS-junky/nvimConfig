@@ -17,5 +17,5 @@ luafile $HOME/.config/nvim/configLua/treesitter.lua
 luafile $HOME/.config/nvim/configLua/telescope.lua
 luafile $HOME/.config/nvim/configLua/lualine.lua
 luafile $HOME/.config/nvim/configLua/references-qflist.lua
-luafile $HOME/.config/nvim/configLua/tabline.lua
+" luafile $HOME/.config/nvim/configLua/tabline.lua
 luafile $HOME/.config/nvim/configLua/indent-blankline.lua
