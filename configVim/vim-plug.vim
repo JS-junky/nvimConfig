@@ -43,5 +43,6 @@ Plug 'williamboman/nvim-lsp-installer'
 Plug 'lukas-reineke/indent-blankline.nvim'
 " Plug 'kdheepak/tabline.nvim'
 Plug 'folke/tokyonight.nvim'
+Plug 'xiyaowong/nvim-transparent'
 
 call plug#end()
