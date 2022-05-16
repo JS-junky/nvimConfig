@@ -9,6 +9,7 @@ source $HOME/.config/nvim/configVim/neoformat.vim
 source $HOME/.config/nvim/configVim/closetag.vim
 source $HOME/.config/nvim/configVim/lsp-config.vim
 source $HOME/.config/nvim/configVim/vcooler.vim
+source $HOME/.config/nvim/configVim/maximizer.vim
 " source $HOME/.config/nvim/configVim/coc.vim
 luafile $HOME/.config/nvim/configLua/lsp.lua
 luafile $HOME/.config/nvim/configLua/cmp.lua
