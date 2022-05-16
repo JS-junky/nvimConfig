@@ -8,8 +8,8 @@ set splitbelow
 syntax on
 set t_Co=256
 set termguicolors
-colorscheme nvcode
-" colorscheme codedark
+" colorscheme nvcode
+colorscheme codedark
 " colorscheme nightfly
 set encoding=utf-8
 set fileencoding=utf-8
