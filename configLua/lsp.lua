@@ -35,7 +35,7 @@ require 'lspconfig'.sumneko_lua.setup {
 require 'lspconfig'.tsserver.setup {}
 -- -----------------------TSSERVER-----------------------------
 
--- -----------------------CSSLS/HTML-----------------------------
+-- -----------------------CSSLS/HTML/JSONLS-----------------------------
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities.textDocument.completion.completionItem.snippetSupport = true
 
@@ -45,7 +45,11 @@ require 'lspconfig'.cssls.setup {
 require 'lspconfig'.html.setup {
   capabilities = capabilities,
 }
--- -----------------------CSSLS/HTML-----------------------------
+
+require 'lspconfig'.jsonls.setup {
+  capabilities = capabilities,
+}
+-- -----------------------CSSLS/HTML/JSONLS-----------------------------
 
 -- -----------------------HLS-----------------------------
 require 'lspconfig'.hls.setup {}
