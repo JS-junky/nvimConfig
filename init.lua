@@ -1,0 +1,7 @@
+require("lsp")
+require("indent-blankline")
+require("nvim-tree")
+require("references-qflist")
+require("tabline")
+require("telescope")
+require("treesitter")
