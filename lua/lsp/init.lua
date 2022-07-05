@@ -1,3 +1,3 @@
 require("installer")
-require("handler")
+require("handlers")
 require("completion.cmp")

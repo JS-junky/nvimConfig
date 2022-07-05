@@ -1,4 +1,4 @@
- require("nvim-lsp-installer").setup({
+require("nvim-lsp-installer").setup({
   ensure_installed = {
     "tsserver",
     "eslint",
@@ -7,7 +7,7 @@
     "jsonls",
     "clangd",
     "sumneko_lua",
-    -- "hls",
+    "hls",
     "bashls",
     "intelephense",
     "vimls",
