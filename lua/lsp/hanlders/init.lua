@@ -1,3 +1,4 @@
+require('pcall_servers')
 require('bashls')
 require('clangd')
 require('cssls')
