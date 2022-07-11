@@ -1,6 +1,6 @@
 local function sumneko_lua_settings(client)
   if client.name == 'sumneko_lua' then
-    globals = { 'vim' }
+    return { globals = { 'vim' } }
   end
 end
 
