@@ -34,13 +34,14 @@ lsp_installer.setup({
 
 local lspconfig = require('lspconfig')
 local lsp_keymaps = require('lsp_keymaps')
+local diagnostic_keymaps = require('diagnostic.diagnostic_keymaps')
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 
 for _, server in pairs(servers) do
   lspconfig[server].setup({
     capabilities = capabilities,
     on_attach = function(client, bufnr)
-
+      diagnostic_keymaps(bufnr)
       lsp_keymaps(bufnr)
     end
   })

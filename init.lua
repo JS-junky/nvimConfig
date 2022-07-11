@@ -1,4 +1,5 @@
 require("lsp")
+require("diagnostic")
 require("indent-blankline")
 require("nvim-tree")
 require("references-qflist")
