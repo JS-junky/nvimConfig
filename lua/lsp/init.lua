@@ -1,3 +1,2 @@
-require("installer")
-require("server")
-require("completion.cmp")
+require('config')
+require('handlers')

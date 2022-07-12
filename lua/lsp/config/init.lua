@@ -35,12 +35,16 @@ lsp_installer.setup({
 local lspconfig = require('lspconfig')
 local lsp_keymaps = require('lsp_keymaps')
 local diagnostic_keymaps = require('diagnostic.diagnostic_keymaps')
+local tsserver_settings = require('settings.tsserver')
+local sumneko_lua_settings = require('settings.sumneko_lua')
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 
 for _, server in pairs(servers) do
   lspconfig[server].setup({
     capabilities = capabilities,
     on_attach = function(client, bufnr)
+      tsserver_settings(client)
+      sumneko_lua_settings(client)
       diagnostic_keymaps(bufnr)
       lsp_keymaps(bufnr)
     end

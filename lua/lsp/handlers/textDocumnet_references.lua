@@ -4,4 +4,3 @@ vim.lsp.handlers['textDocument/references'] = function(_, _, result)
   util.set_qflist(util.locations_to_items(result))
   -- api.nvim_command("copen")
 end
-
