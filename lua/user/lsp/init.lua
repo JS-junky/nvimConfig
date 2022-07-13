@@ -1,2 +1,2 @@
-require('config')
-require('handler')
+require('user.lsp.config')
+require('user.lsp.handler')
