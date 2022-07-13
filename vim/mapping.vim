@@ -37,7 +37,7 @@ nnoremap <leader><TAB> :sp <CR> <C-W>J <C-W>10- :b zsh<TAB><CR>
 nnoremap <F12> :IndentGuidesToggle <CR>
 nnoremap <TAB> gt
 nnoremap <S-TAB> gT
-nnoremap <F5> :so ~/.config/nvim/init.vim <CR>
+nnoremap <F5> :so ~/.config/nvim/init.lua <CR>
 nnoremap <A-l> <C-W>l
 nnoremap <A-k> <C-W>k
 nnoremap <A-j> <C-W>j

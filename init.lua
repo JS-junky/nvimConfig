@@ -1,11 +1,11 @@
-require("lsp")
-require("diagnostic")
-require("completion.cmp")
-require("indent-blankline")
-require("nvim-tree")
-require("tabline")
-require("telescope")
-require("treesitter")
+require("user.lsp")
+require("user.diagnostic")
+require("user.completion.cmp")
+require("user.indent-blankline")
+require("user.nvim-tree")
+require("user.tabline")
+require("user.telescope")
+require("user.treesitter")
 
 vim.cmd [[
   source $HOME/.config/nvim/vim/vim-plug.vim
