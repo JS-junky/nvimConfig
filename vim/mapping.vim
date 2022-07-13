@@ -37,7 +37,7 @@ nnoremap <leader><TAB> :sp <CR> <C-W>J <C-W>10- :b zsh<TAB><CR>
 nnoremap <F12> :IndentGuidesToggle <CR>
 nnoremap <TAB> gt
 nnoremap <S-TAB> gT
-nnoremap <F5> :so ~/.config/nvim/init.lua <CR>
+nnoremap <F5> :so % <CR>
 nnoremap <A-l> <C-W>l
 nnoremap <A-k> <C-W>k
 nnoremap <A-j> <C-W>j
@@ -85,7 +85,7 @@ if bufwinnr(1)
   nmap _ <C-W><
   nmap + <C-W>>
 endif
-function TabLeft()
+function! TabLeft()
    if tabpagenr() == 1
       execute "tabm"
    else
@@ -93,7 +93,7 @@ function TabLeft()
    endif
 endfunction
 
-function TabRight()
+function! TabRight()
    if tabpagenr() == tabpagenr('$')
       execute "tabm" 0
    else
