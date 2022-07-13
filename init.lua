@@ -3,7 +3,6 @@ require("user.diagnostic")
 require("user.completion.cmp")
 require("user.indent-blankline")
 require("user.nvim-tree")
-require("user.tabline")
 require("user.telescope")
 require("user.treesitter")
 
